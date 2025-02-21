@@ -9,7 +9,7 @@ difficulty: medium to high
 # Related issues (if any)  to this project.
 # Ideally you want at least one
 issues:
- - https://github.com/org/org_repo/issues/5555
+ - https://github.com/gammapy/gammapy/issues/5709
 mentors:
 # First person in contact; mentors may change before project starts.
 # GitHub or GitLab handles
@@ -32,7 +32,7 @@ collaborating_projects:
 ## Description
 Gammapy is a community-developed, open-source Python package for gamma-ray astronomy built on Numpy, Scipy and Astropy. It is the core library for the CTAO Science Tools but can also be used to analyse data from existing imaging atmospheric Cherenkov telescopes (IACTs), such as H.E.S.S., MAGIC and VERITAS. It also provides some support for Fermi-LAT and HAWC data analysis.
 
-Gammapy is built on a [asdf format](https://www.asdf-format.org/en/latest/overview.html)
+Gammapy is built on a the `Map` framework [(see documentation)](https://docs.gammapy.org/1.3/user-guide/maps/index.html) which allow to represent pixelized N-dimension data  with at least two spatial dimensions representing coordinates on a sphere (e.g. an image in celestial coordinates).    [asdf format](https://www.asdf-format.org/en/latest/overview.html)
 
 ## Project Milestones
 
