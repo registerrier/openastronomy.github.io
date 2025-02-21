@@ -29,11 +29,10 @@ collaborating_projects:
  - gammapy
 ---
 
-# This is an awesome project idea for suborg.
-
 ## Description
+Gammapy is a community-developed, open-source Python package for gamma-ray astronomy built on Numpy, Scipy and Astropy. It is the core library for the CTAO Science Tools but can also be used to analyse data from existing imaging atmospheric Cherenkov telescopes (IACTs), such as H.E.S.S., MAGIC and VERITAS. It also provides some support for Fermi-LAT and HAWC data analysis.
 
-
+Gammapy is built on a [asdf format](https://www.asdf-format.org/en/latest/overview.html)
 
 ## Project Milestones
 
@@ -42,7 +41,7 @@ collaborating_projects:
 * Familiarize yourself with gammapy data structures and development environment.
 * Familiarize yourself with asdf extensions, Converters and schemas.
 
-### Before first evaluation: Implement ASDF serialization for Maps 
+### First evaluation: Implement ASDF serialization for Maps 
 
 * Write Converters, schemas and associated tests for MapAxis, MapAxes.
 * Write Converters, schemas and associated tests for Geom classes.
